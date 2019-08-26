@@ -22,6 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
 		<kotlin.version>1.0.0</kotlin.version>
+		<start-class>ru.fnnetrolle.smlr.SmlrApplication</start-class>
 	</properties>
 
 	<dependencies>
