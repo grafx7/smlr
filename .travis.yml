@@ -2,7 +2,8 @@ language: java
 jdk: openjdk8
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -t bbadc93c-1686-4454-ae5b-1945581c8fbd
+  export CODECOV_TOKEN="a687f0b1-d8c7-483e-8242-904c68c455f3"
+  bash <(curl -s https://codecov.io/bash)
 
 notifications:
   email:
