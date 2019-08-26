@@ -20,6 +20,7 @@ Click above to redirect to GitHub and create your codecov.yml file.
 Bold values are default.
 
 codecov:
+  token: a687f0b1-d8c7-483e-8242-904c68c455f3
   branch: master
   bot: null
 
